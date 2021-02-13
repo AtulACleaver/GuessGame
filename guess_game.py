@@ -1,5 +1,7 @@
+import random
 
-secret_word = "Atul"
+arrOfWords = ["words", "guess", "actions"]
+secret_word = random.choice(arrOfWords)
 guess = ""
 chances = 3
 
